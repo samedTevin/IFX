@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="390dp"
+    android:height="330dp"
+    android:viewportWidth="390"
+    android:viewportHeight="330">
+
+    <!-- Dark rounded card base -->
+    <path
+        android:fillColor="#0B0B0B"
+        android:pathData="M0 0H390V294a36 36 0 0 1-36 36H36a36 36 0 0 1-36-36z"/>
+
+    <!-- Grid lines clipped to the card -->
+    <group>
+        <clip-path android:pathData="M0 0H390V294a36 36 0 0 1-36 36H36a36 36 0 0 1-36-36z"/>
+        <path
+            android:pathData="M58 0V330M118 0V330M178 0V330M238 0V330M298 0V330M358 0V330M0 56H390M0 116H390M0 176H390M0 236H390M0 296H390"
+            android:strokeColor="#14FFFFFF"
+            android:strokeWidth="1"/>
+    </group>
+
+    <!-- ifx brand logo at x=24, y=28 -->
+    <group
+        android:scaleX="0.1131"
+        android:scaleY="0.1131"
+        android:translateX="-5.52"
+        android:translateY="-10.91">
+        <group
+            android:pivotX="514.5"
+            android:pivotY="493.0"
+            android:scaleX="1.35"
+            android:scaleY="1.35"
+            android:translateX="-2.5"
+            android:translateY="19.0">
+            <path android:fillColor="#FFFFFF"
+                android:pathData="M329,447 H402 V617 H352 V483 H329 Z"/>
+            <path android:fillColor="#C6FF3D"
+                android:pathData="M360,369 H377 Q395,369 395,387 V403 Q395,421 377,421 H360 Q342,421 342,403 V387 Q342,369 360,369 Z"/>
+            <path android:fillColor="#FFFFFF"
+                android:pathData="M416,447 H436 V440 Q436,387 490,387 H523 V430 H500 Q484,430 484,447 H527 V487 H484 V617 H436 V487 H416 Z"/>
+            <path android:fillColor="#C6FF3D"
+                android:pathData="M524,446 H579 L607,497 L643,446 H690 L647,529 L700,617 H647 L607,556 L572,617 H520 L570,531 Z"/>
+        </group>
+    </group>
+
+    <!-- Signal path: trigger dot with halo -->
+    <path android:fillColor="#2EC6FF3F"
+        android:pathData="M215 47a17 17 0 1 0 0 34 17 17 0 0 0 0-34z"/>
+    <path android:fillColor="#C6FF3F"
+        android:pathData="M215 56a8 8 0 1 0 0 16 8 8 0 0 0 0-16z"/>
+
+    <!-- Circuit path lines -->
+    <path android:pathData="M223 64H330V125M330 176V240"
+        android:strokeColor="#C6FF3F" android:strokeWidth="3"
+        android:strokeLineCap="round" android:strokeLineJoin="round"/>
+
+    <!-- Condition Diamond -->
+    <path android:pathData="M330 125.4L352.6 148L330 170.6L307.4 148Z"
+        android:strokeColor="#C6FF3F" android:strokeWidth="3"
+        android:strokeLineJoin="round"/>
+
+    <!-- Action X symbol -->
+    <path android:pathData="M319 257l22 22M341 257l-22 22"
+        android:strokeColor="#C6FF3F" android:strokeWidth="6"
+        android:strokeLineCap="round"/>
+</vector>

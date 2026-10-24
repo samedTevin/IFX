@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="390dp" android:height="230dp"
+    android:viewportWidth="390" android:viewportHeight="230">
+    <path android:fillColor="#0B0B0B" android:strokeColor="#0B0B0B" android:strokeWidth="2"
+        android:pathData="M45 1H235a20 20 0 0 1 20 20V41a20 20 0 0 1 -20 20H45a20 20 0 0 1 -20 -20V21a20 20 0 0 1 20 -20z"/>
+    <path android:fillColor="#33C6FF3F"
+        android:pathData="M42 31a11 11 0 1 0 22 0a11 11 0 1 0 -22 0z"/>
+    <path android:fillColor="#C6FF3F"
+        android:pathData="M46 31a7 7 0 1 0 14 0a7 7 0 1 0 -14 0z"/>
+    <path android:fillColor="#C6FF3F"
+        android:pathData="M218 31a11 11 0 1 0 22 0a11 11 0 1 0 -22 0z"/>
+    <path android:strokeColor="#0B0B0B" android:strokeWidth="2.4" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M224 31l3.5 3.5L234 27.5"/>
+    <path android:strokeColor="#0B0B0B" android:strokeWidth="2"
+        android:pathData="M76 62V84"/>
+    <path android:fillColor="#FFFFFF" android:strokeColor="#0B0B0B" android:strokeWidth="2"
+        android:pathData="M75 85H295a20 20 0 0 1 20 20V125a20 20 0 0 1 -20 20H75a20 20 0 0 1 -20 -20V105a20 20 0 0 1 20 -20z"/>
+    <path android:strokeColor="#0B0B0B" android:strokeWidth="2.5" android:strokeLineJoin="round"
+        android:pathData="M83 106.5L91.5 115L83 123.5L74.5 115z"/>
+    <path android:fillColor="#0B0B0B"
+        android:pathData="M278 115a11 11 0 1 0 22 0a11 11 0 1 0 -22 0z"/>
+    <path android:strokeColor="#C6FF3F" android:strokeWidth="2.4" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M284 115l3.5 3.5L294 111.5"/>
+    <path android:strokeColor="#0B0B0B" android:strokeWidth="2"
+        android:pathData="M106 146V168"/>
+    <path android:fillColor="#0B0B0B" android:strokeColor="#0B0B0B" android:strokeWidth="2"
+        android:pathData="M105 169H345a20 20 0 0 1 20 20V209a20 20 0 0 1 -20 20H105a20 20 0 0 1 -20 -20V189a20 20 0 0 1 20 -20z"/>
+    <path android:strokeColor="#C6FF3F" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M108 194l10 10M118 194l-10 10"/>
+    <path android:fillColor="#C6FF3F"
+        android:pathData="M328 199a11 11 0 1 0 22 0a11 11 0 1 0 -22 0z"/>
+    <path android:strokeColor="#0B0B0B" android:strokeWidth="2.4" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M334 199l3.5 3.5L344 195.5"/>
+</vector>

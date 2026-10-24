@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="390dp" android:height="400dp"
+    android:viewportWidth="390" android:viewportHeight="400">
+    <group android:rotation="-6" android:pivotX="194" android:pivotY="76">
+        <path android:fillColor="#0B0B0B" android:pathData="M72 20H316a28 28 0 0 1 28 28V104a28 28 0 0 1 -28 28H72a28 28 0 0 1 -28 -28V48a28 28 0 0 1 28 -28z"/>
+        <path android:fillColor="#C6FF3F" android:pathData="M84 48H104a18 18 0 0 1 18 18V86a18 18 0 0 1 -18 18H84a18 18 0 0 1 -18 -18V66a18 18 0 0 1 18 -18z"/>
+        <group android:translateX="80" android:translateY="62" android:scaleX="1.167" android:scaleY="1.167">
+            <path android:pathData="M4 6h16v12H4zM4 7l8 6 8-6" android:strokeColor="#0B0B0B" android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+        </group>
+    </group>
+    <group android:rotation="3" android:pivotX="192" android:pivotY="206">
+        <path android:fillColor="#C6FF3F" android:pathData="M70 150H314a28 28 0 0 1 28 28V234a28 28 0 0 1 -28 28H70a28 28 0 0 1 -28 -28V178a28 28 0 0 1 28 -28z"/>
+        <path android:fillColor="#0B0B0B" android:pathData="M82 178H102a18 18 0 0 1 18 18V216a18 18 0 0 1 -18 18H82a18 18 0 0 1 -18 -18V196a18 18 0 0 1 18 -18z"/>
+        <group android:translateX="78" android:translateY="192" android:scaleX="1.167" android:scaleY="1.167">
+            <path android:pathData="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7v5h4" android:strokeColor="#C6FF3F" android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+        </group>
+    </group>
+    <group android:rotation="-2" android:pivotX="202" android:pivotY="336">
+        <path android:fillColor="#FFFFFF" android:strokeColor="#0B0B0B" android:strokeWidth="2" android:pathData="M81 281H323a28 28 0 0 1 28 28V363a28 28 0 0 1 -28 28H81a28 28 0 0 1 -28 -28V309a28 28 0 0 1 28 -28z"/>
+        <path android:fillColor="#0B0B0B" android:pathData="M92 308H112a18 18 0 0 1 18 18V346a18 18 0 0 1 -18 18H92a18 18 0 0 1 -18 -18V326a18 18 0 0 1 18 -18z"/>
+        <group android:translateX="88" android:translateY="322" android:scaleX="1.167" android:scaleY="1.167">
+            <path android:pathData="M4 5h16v11H9l-5 4z" android:strokeColor="#C6FF3F" android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+        </group>
+    </group>
+</vector>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Onboarding page 2 illustration (text converted to paths, Liberation Sans). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
@@ -7,14 +7,7 @@
     android:viewportWidth="360"
     android:viewportHeight="380">
 
-    <path android:pathData="M5,200 a175,175 0 1,0 350,0 a175,175 0 1,0 -350,0 Z">
-        <aapt:attr name="android:fillColor">
-            <gradient android:type="radial" android:centerX="180" android:centerY="200" android:gradientRadius="175">
-                <item android:offset="0" android:color="#CCFFFFFF" />
-                <item android:offset="1" android:color="#00FFFFFF" />
-            </gradient>
-        </aapt:attr>
-    </path>
+    <path android:pathData="M5,200 a175,175 0 1,0 350,0 a175,175 0 1,0 -350,0 Z" android:fillColor="#20FFFFFF" />
     <path
         android:fillColor="#0F2D6E"
         android:fillAlpha="0.35"

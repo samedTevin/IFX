@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 12+ Splash Screen Icon (Without Icon Background Specification).
+    Conforms to official Android documentation:
+    - Canvas size: 288dp x 288dp
+    - Must fit within a circle of 192dp in diameter (radius 96dp from center 144, 144).
+    - The black squircle badge is 144dp x 144dp with corner radius 32dp.
+    - Max corner distance from center: sqrt(40^2 + 40^2) + 32 = 88.57dp < 96dp.
+    - Guaranteed zero mask clipping by Android 12+.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+
+    <!-- Black Squircle App Icon Badge (matches Image 3) -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:pathData="M104,72 H184 Q216,72 216,104 V184 Q216,216 184,216 H104 Q72,216 72,184 V104 Q72,72 104,72 Z" />
+
+    <!-- Centered IFX Wordmark inside the squircle badge -->
+    <group
+        android:pivotX="514.5"
+        android:pivotY="493.0"
+        android:scaleX="0.2372"
+        android:scaleY="0.2372"
+        android:translateX="-370.5"
+        android:translateY="-349.0">
+
+        <!-- "i" letter stem (white) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M329,447 H402 V617 H352 V483 H329 Z" />
+
+        <!-- Lime dot above "i" -->
+        <path
+            android:fillColor="#C6FF3D"
+            android:pathData="M360,369 H377 Q395,369 395,387 V403 Q395,421 377,421 H360 Q342,421 342,403 V387 Q342,369 360,369 Z" />
+
+        <!-- "f" letter (white) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M416,447 H436 V440 Q436,387 490,387 H523 V430 H500 Q484,430 484,447 H527 V487 H484 V617 H436 V487 H416 Z" />
+
+        <!-- "x" letter (lime) -->
+        <path
+            android:fillColor="#C6FF3D"
+            android:pathData="M524,446 H579 L607,497 L643,446 H690 L647,529 L700,617 H647 L607,556 L572,617 H520 L570,531 Z" />
+    </group>
+</vector>

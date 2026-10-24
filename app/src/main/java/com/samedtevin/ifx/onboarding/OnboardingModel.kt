@@ -1,30 +1,29 @@
 package com.samedtevin.ifx.onboarding
 
-import androidx.annotation.DrawableRes
-import com.samedtevin.ifx.R
-
+/**
+ * Data model representing the 4 onboarding stages in the ifx automation journey.
+ */
 sealed class OnboardingModel(
-    @DrawableRes val logo: Int = R.drawable.ic_logo,
-    @DrawableRes val image: Int,
     val title: String,
     val description: String
 ) {
-
-    data object FirstPage: OnboardingModel(
-        image = R.drawable.onboarding_1,
-        title = "Pick a trigger,\n let IFX watch",
-        description = "Arrive home, hit 10 PM or run low on battery.\n Choose the moment that matters and\n IFX will watch for it."
+    data object FirstPage : OnboardingModel(
+        title = "Pick a trigger,\nlet ifx watch",
+        description = "Choose what starts your automation."
     )
 
-    data object SecondPage: OnboardingModel(
-        image = R.drawable.onboarding_2,
-        title = "Then it acts\n for you",
-        description = "Turn on Wi-Fi, silence your phone or send a\n message. Actions run automatically,\n every single time."
+    data object SecondPage : OnboardingModel(
+        title = "Create your flow,\nvisually",
+        description = "Chain triggers, conditions, and actions visually on a canvas."
     )
 
-    data object ThirdPage: OnboardingModel(
-        image = R.drawable.onboarding_3,
-        title = "Build your own\n rules",
-        description = "Combine triggers and actions in a few taps.\n Turn rules on or off anytime. Everything\n stays on your device."
+    data object ThirdPage : OnboardingModel(
+        title = "Describe what you\nwant, let Gemini help",
+        description = "Type or speak your routine in plain English, and AI builds the flow."
+    )
+
+    data object FourthPage : OnboardingModel(
+        title = "Test it before\nit runs",
+        description = "Run a live dry-run simulation to ensure zero errors before activating."
     )
 }

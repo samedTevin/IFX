@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Onboarding illustration. Text/buttons are native UI. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
@@ -7,22 +7,8 @@
     android:viewportWidth="360"
     android:viewportHeight="380">
 
-    <path android:pathData="M5,190 a175,175 0 1,0 350,0 a175,175 0 1,0 -350,0 Z">
-        <aapt:attr name="android:fillColor">
-            <gradient android:type="radial" android:centerX="180" android:centerY="190" android:gradientRadius="175">
-                <item android:offset="0" android:color="#CCFFFFFF" />
-                <item android:offset="1" android:color="#00FFFFFF" />
-            </gradient>
-        </aapt:attr>
-    </path>
-    <path android:pathData="M85,190 a95,95 0 1,0 190,0 a95,95 0 1,0 -190,0 Z">
-        <aapt:attr name="android:fillColor">
-            <gradient android:type="radial" android:centerX="180" android:centerY="190" android:gradientRadius="95">
-                <item android:offset="0" android:color="#2E0F2D6E" />
-                <item android:offset="1" android:color="#000F2D6E" />
-            </gradient>
-        </aapt:attr>
-    </path>
+    <path android:pathData="M5,190 a175,175 0 1,0 350,0 a175,175 0 1,0 -350,0 Z" android:fillColor="#20FFFFFF" />
+    <path android:pathData="M85,190 a95,95 0 1,0 190,0 a95,95 0 1,0 -190,0 Z" android:fillColor="#150F2D6E" />
     <path
         android:fillColor="#0F2D6E"
         android:fillAlpha="0.35"
